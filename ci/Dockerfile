@@ -12,5 +12,6 @@ RUN curl https://musl.libc.org/releases/musl-latest.tar.gz -o musl-latest.tar.gz
     curl --silent --location https://rpm.nodesource.com/setup_current.x | bash - && \
     yum -y install nodejs && \
     npm install -g serverless && \
-    cargo clippy --help && \
-    cargo fmt --version
+    cargo clippy --version && \
+    cargo fmt --version && \
+    cargo make --version
