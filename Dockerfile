@@ -1,7 +1,7 @@
 # https://github.com/lambci/docker-lambda#documentation
 FROM lambci/lambda:build-provided.al2
 
-ENV RUST_VERSION=1.51.0
+ENV RUST_VERSION=1.53.0
 ENV CARGO_HOME=/cargo
 ENV RUSTUP_HOME=/rustup
 RUN yum install -y jq
