@@ -17,4 +17,5 @@ RUN curl https://musl.libc.org/releases/musl-latest.tar.gz -o musl-latest.tar.gz
     cargo fmt --version && \
     cargo make --version && \
     grass --version && \
-    wasm-pack --version
+    wasm-pack --version && \
+    cargo cache --autoclean-expensive
